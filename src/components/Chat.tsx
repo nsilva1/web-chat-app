@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import ChatBox from './ChatBox';
+import ReplyBox from './ReplyBox';
 
 const Chat = () => {
   return (
-    <div>Chat</div>
-  )
-}
+    <div>
+      <ChatBox />
+      <ReplyBox />
+    </div>
+  );
+};
 
-export default Chat
+export default Chat;
